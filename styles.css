@@ -19,6 +19,7 @@ a{
     font-weight: 500;
     text-decoration: none;
     margin-right: 30px;
+    transition: transform 200ms ease-in-out;
 }
 
 a::before{
@@ -29,10 +30,20 @@ a::before{
     margin-right: 10px;
 }
 
+a:hover{
+    transform: scale(1.05);
+}
+
 #button {
     display: inline-block;
     background-color: #02A9F7;
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #000;
     margin-right: 0;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+
+#button:hover{
+    transform: scale(1.05);
 }
