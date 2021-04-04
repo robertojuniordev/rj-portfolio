@@ -1,2 +1,2 @@
-# rj-portfolio
-Projeto de portfolio de game audio.
+# Meu portfólio
+Portfólio com meus projetos de áudio, música e efeitos sonoros.
